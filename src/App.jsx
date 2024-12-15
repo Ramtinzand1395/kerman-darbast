@@ -6,6 +6,7 @@ import Aboutus from "./components/pages/Aboutus";
 import Gallery from "./components/pages/Gallery";
 import ContactUs from "./components/pages/ContactUs";
 import Blogs from "./components/pages/blog/Blogs";
+import Blog from "./components/pages/blog/Blog";
 
 const App = () => {
   return (
@@ -45,10 +46,18 @@ const App = () => {
           }
         />
          <Route
-          path="/articles"
+          path="/blogs"
           element={
             <MainLayout>
               <Blogs />
+            </MainLayout>
+          }
+        />
+        <Route
+          path={`/blogs/blog/:blogTitle`}
+          element={
+            <MainLayout>
+              <Blog />
             </MainLayout>
           }
         />

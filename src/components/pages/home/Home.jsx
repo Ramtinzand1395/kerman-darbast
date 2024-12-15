@@ -1,4 +1,5 @@
 import Header from "../../header/Header";
+import Article from "./Article";
 import Contact from "./Contact";
 import Firstdiv from "./Firstdiv";
 import Imagessec from "./Imagessec";
@@ -10,6 +11,7 @@ const Home = () => {
       <Header />
       <Firstdiv />
       <Services />
+      <Article />
       <Imagessec />
       <Contact />
     </div>

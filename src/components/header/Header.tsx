@@ -11,7 +11,7 @@ const Header = () => {
      </div>
      {/* blue-part */}
      <div className="bg-primary p-10 flex flex-col items-center justify-center text-white">
-       <h1 className="text-2xl md:text-6xl shadow">اجرا داربست فلزی در کرمان</h1>
+       <h2 className="text-2xl md:text-6xl shadow">اجرا داربست فلزی در کرمان</h2>
        <p className="mt-5 ">بیش از یک دهه تجربه در اجرای داربست فلزی در کرمان</p>
      </div>
    </header>

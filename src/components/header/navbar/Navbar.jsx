@@ -92,7 +92,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/articles"
+                to="/blogs"
                 className={({ isActive }) =>
                   `block py-2 px-3 rounded md:p-0 ${
                     isActive ? "text-primary" : "text-gray-900"

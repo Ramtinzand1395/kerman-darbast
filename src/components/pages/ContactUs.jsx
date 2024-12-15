@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 
 const ContactUs = () => {
   const copyToClipboard = (text) => {
@@ -7,6 +8,19 @@ const ContactUs = () => {
     );
   };
   return (
+    <>
+      <Helmet>
+        <title>تماس ما | داربست فلزی در کرمان</title>
+        <meta
+          name="description"
+          content="شرکت خدمات داربست فلزی کرمان ارائه‌دهنده خدمات نصب، اجاره، و طراحی داربست فلزی با کیفیت بالا و مطابق استانداردهای ایمنی ایران. با ما بیشتر آشنا شوید."
+        />
+        <meta
+          name="keywords"
+          content="، داربست فلزی در کرمان ، تماس با ما, شرکت خدمات داربست فلزی, نصب داربست کرمان, اجاره داربست, طراحی داربست فلزی"
+        />
+        <link rel="canonical" href="http://localhost:5173/contact-us" />
+      </Helmet>
     <div className="flex flex-col items-start justify-evenly h-[40vh] md:container md:mx-auto mx-2">
       <h5 className="font-bold text-3xl">با ما در تماس باشید</h5>
       <p>جهت در یافت مشاوره رایگان تماس بگیرید.</p>
@@ -28,6 +42,7 @@ const ContactUs = () => {
       آدرس :کرمان -  بلوار فرزانگان
       </p>
     </div>
+    </>
   );
 };
 
