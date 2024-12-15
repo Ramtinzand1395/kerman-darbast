@@ -19,7 +19,7 @@ const ContactUs = () => {
           name="keywords"
           content="، داربست فلزی در کرمان ، تماس با ما, شرکت خدمات داربست فلزی, نصب داربست کرمان, اجاره داربست, طراحی داربست فلزی"
         />
-        <link rel="canonical" href="http://localhost:5173/contact-us" />
+        <link rel="canonical" href="https://kerman-darbast.vercel.app/contact-us" />
       </Helmet>
     <div className="flex flex-col items-start justify-evenly h-[40vh] md:container md:mx-auto mx-2">
       <h5 className="font-bold text-3xl">با ما در تماس باشید</h5>
