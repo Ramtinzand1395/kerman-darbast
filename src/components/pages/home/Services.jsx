@@ -1,4 +1,4 @@
-import aboutus from "../../../assets/aboutUs.jpg";
+import aboutus from "../../../assets/aboutUs.webp";
 const Services = () => {
   return (
     <div className="md:ml-32 ml-5 bg-primary grid grid-cols-1 md:grid-cols-2 text-white p-5 md:p-20 gap-10">

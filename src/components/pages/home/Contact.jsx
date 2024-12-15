@@ -1,4 +1,4 @@
-import contact from "../../../assets/contact.jpg"
+import contact from "../../../assets/contact.webp"
 const Contact = () => {
     const copyToClipboard = (text) => {
         navigator.clipboard.writeText(text).then(

@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import img from "../../assets/aboutUs.jpg";
+import img from "../../assets/aboutUs.webp";
 const Aboutus = () => {
   return (
     <>
@@ -124,7 +124,7 @@ const Aboutus = () => {
             </p>
           </div>
           <div className="">
-            <img src={img} alt="aboutUs.jpg" />
+            <img src={img} alt="aboutUs.webp" />
           </div>
         </div>
       </div>
