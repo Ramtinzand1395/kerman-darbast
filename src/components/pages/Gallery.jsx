@@ -5,9 +5,9 @@ import baner from "../../assets/Baner.webp";
 const Gallery = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-5 my-10 container md:mx-auto mx-2">
-      <img src={contact} className="w-full h-[40vh]" alt="contact.webp" />
-      <img src={aboutus} className="w-full h-[40vh]" alt="aboutUs.webp" />
-      <img src={baner} className="w-full h-[40vh]" alt="Baner.webp" />
+      <img height={"60vh"} width={"100vw"} src={contact} className="w-full h-[40vh]" alt="contact.webp" />
+      <img height={"60vh"} width={"100vw"} src={aboutus} className="w-full h-[40vh]" alt="aboutUs.webp" />
+      <img height={"60vh"} width={"100vw"} src={baner} className="w-full h-[40vh]" alt="Baner.webp" />
     </div>
   );
 };

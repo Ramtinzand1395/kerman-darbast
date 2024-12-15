@@ -21,7 +21,7 @@ const Contact = () => {
             </button>
         </div>
         <div className="self-end">
-            <img src={contact} className="w-full h-[40vh] rounded-md" alt="contact.jpg" />
+            <img height={"60vh"} width={"100vw"} src={contact} className="w-full h-[40vh] rounded-md" alt="contact.jpg" />
         </div>
     </div>
   )

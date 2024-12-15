@@ -34,7 +34,7 @@ const Services = () => {
         </div>
       </div>
       <div className="justify-self-end">
-        <img src={aboutus} alt="aboutUs.jpg" />
+        <img height={"60vh"} width={"100vw"} src={aboutus} alt="aboutUs.jpg" />
       </div>
     </div>
   );
