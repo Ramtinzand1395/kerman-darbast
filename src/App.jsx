@@ -7,6 +7,7 @@ import Gallery from "./components/pages/Gallery";
 import ContactUs from "./components/pages/ContactUs";
 import Blogs from "./components/pages/blog/Blogs";
 import Blog from "./components/pages/blog/Blog";
+import Blog2 from "./components/pages/blog/Blog2";
 
 const App = () => {
   return (
@@ -54,10 +55,18 @@ const App = () => {
           }
         />
         <Route
-          path={`/blogs/blog/:blogTitle`}
+          path={`/blogs/blog/نصب داربست فلزی در کرمان: راهنمای جامع و کاربردی`}
           element={
             <MainLayout>
               <Blog />
+            </MainLayout>
+          }
+        />
+         <Route
+          path={`/blogs/blog/اجزای اصلی داربست فلزی: راهنمای جامع برای آشنایی با قطعات داربست فلزی`}
+          element={
+            <MainLayout>
+              <Blog2 />
             </MainLayout>
           }
         />

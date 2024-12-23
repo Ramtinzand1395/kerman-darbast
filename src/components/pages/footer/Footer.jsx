@@ -7,6 +7,7 @@ const Footer = () => {
           <p>آدرس : بلوار فرزانگان</p>
           <p>تماس: 09131968481</p>
           <p>تماس: 09399943527</p>
+          <p>با مدیریت فرشید ضیا تبری</p>
         </div>
         <div className="flex flex-col justify-around">
           <h3>لیست خدمات</h3>

@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import img1 from "../../assets/IMG-20241217-WA0019.webp";
 
 const ContactUs = () => {
   const copyToClipboard = (text) => {
@@ -19,29 +20,43 @@ const ContactUs = () => {
           name="keywords"
           content="، داربست فلزی در کرمان ، تماس با ما, شرکت خدمات داربست فلزی, نصب داربست کرمان, اجاره داربست, طراحی داربست فلزی"
         />
-        <link rel="canonical" href="https://kerman-darbast.vercel.app/contact-us" />
+        <link
+          rel="canonical"
+          href="https://kerman-darbast.vercel.app/contact-us"
+        />
       </Helmet>
-    <div className="flex flex-col items-start justify-evenly h-[40vh] md:container md:mx-auto mx-2">
-      <h5 className="font-bold text-3xl">با ما در تماس باشید</h5>
-      <p>جهت در یافت مشاوره رایگان تماس بگیرید.</p>
-      <button
-        onClick={() => copyToClipboard("09399943527")}
-        className=" p-5 rounded-lg"
-        type="button"
-      >
-        اطلاعات تماس 1 :09131968481
-      </button>
-      <button
-        onClick={() => copyToClipboard("09399943527")}
-        className=" p-5 rounded-lg"
-        type="button"
-      >
-        اطلاعات تماس 2 :09399943527
-      </button>
-      <p>
-      آدرس :کرمان -  بلوار فرزانگان
-      </p>
-    </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5  md:container md:mx-auto mx-2">
+        <div className="flex flex-col items-start gap-14">
+          <h5 className="font-bold mt-3 text-3xl">با ما در تماس باشید</h5>
+          <p>جهت در یافت مشاوره رایگان تماس بگیرید.</p>
+          <button
+            onClick={() => copyToClipboard("09399943527")}
+            className=" rounded-lg"
+            type="button"
+          >
+            اطلاعات تماس 1 :09131968481
+          </button>
+          <button
+            onClick={() => copyToClipboard("09399943527")}
+            className=" rounded-lg"
+            type="button"
+          >
+            اطلاعات تماس 2 :09399943527
+          </button>
+          <p>آدرس :کرمان - بلوار فرزانگان</p>
+        </div>
+        <div className="">
+          <img
+            height={"400px"}
+            width={"400px"}
+            src={img1}
+            className="w-full h-[400px]"
+            alt="لوله‌های فلزی برای داربست در کرمان"
+            title="لوله‌های فلزی برای داربست در کرمان"
+            loading="lazy"
+          />{" "}
+        </div>
+      </div>
     </>
   );
 };

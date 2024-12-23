@@ -7,7 +7,7 @@ const Blogs = () => {
       {blog.map((blog) => (
         <div
           key={blog.id}
-          className="w-auto h-[40vh] bg-gradient-to-l from-slate-300 to-slate-100 text-slate-600 border border-slate-300 grid grid-col-2 justify-center p-4 gap-4 rounded-lg shadow-md"
+          className="w-auto h-[40vh] my-10 bg-gradient-to-l from-slate-300 to-slate-100 text-slate-600 border border-slate-300 grid grid-col-2 justify-center p-4 gap-4 rounded-lg shadow-md"
         >
           <div className="col-span-2 text-lg font-bold capitalize rounded-md">
             {blog.tittle}
