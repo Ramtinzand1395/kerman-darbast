@@ -27,7 +27,7 @@ const ContactUs = () => {
       </Helmet>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5  md:container md:mx-auto mx-2">
         <div className="flex flex-col items-start gap-14">
-          <h5 className="font-bold mt-3 text-3xl">با ما در تماس باشید</h5>
+          <h1 className="font-bold mt-3 text-3xl">با ما در تماس باشید</h1>
           <p>جهت در یافت مشاوره رایگان تماس بگیرید.</p>
           <button
             onClick={() => copyToClipboard("09399943527")}
