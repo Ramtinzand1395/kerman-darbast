@@ -1,6 +1,6 @@
 import contact from "../../assets/contact.webp";
 import aboutus from "../../assets/aboutUs.webp";
-import baner from "../../assets/Baner.webp";
+import baner from "../../assets/baner.webp";
 import img1 from "../../assets/IMG-20241217-WA0019.webp";
 import img2 from "../../assets/IMG-20241217-WA0010.webp";
 import img3 from "../../assets/IMG-20241217-WA0014.webp";
