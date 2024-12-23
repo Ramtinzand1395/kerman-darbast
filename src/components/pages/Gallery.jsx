@@ -7,9 +7,26 @@ import img3 from "../../assets/IMG-20241217-WA0014.webp";
 import img4 from "../../assets/IMG-20241217-WA0014.webp";
 import img5 from "../../assets/IMG-20241217-WA0019.webp";
 import img6 from "../../assets/IMG-20241217-WA0028.webp";
+import { Helmet } from "react-helmet-async";
 const Gallery = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-5 my-10 container md:mx-auto mx-2">
+      <Helmet>
+        <title> گالری تصاویر| داربست فلزی در کرمان</title>
+
+        <meta
+          name="description"
+          content="مشاهده گالری تصاویر مربوط به نصب، اجاره، و طراحی داربست فلزی استاندارد در کرمان و شهرستان‌ها. ارائه خدمات با کیفیت و تجهیزات مدرن."
+        />
+        <meta
+          name="keywords"
+          content="داربست فلزی, نصب داربست, داربست در کرمان, اجاره داربست, طراحی داربست, پروژه‌های ساختمانی, پروژه‌های تبلیغاتی"
+        />
+        <link
+          rel="canonical"
+          href="https://kerman-darbast.vercel.app/gallery"
+        />
+      </Helmet>
       <img
         height={"400px"}
         width={"400px"}

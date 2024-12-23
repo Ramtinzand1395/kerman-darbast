@@ -124,7 +124,7 @@ const Aboutus = () => {
             </p>
           </div>
           <div className="">
-            <img src={img} className="w-full h-full" height="300px" width="300px" alt="aboutUs.webp" />
+            <img src={img} className="w-full h-full" height="300px" width="300px" alt="aboutUs.webp"loading="lazy"/>
           </div>
         </div>
       </div>
