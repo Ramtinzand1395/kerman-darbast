@@ -11,7 +11,7 @@ const Aboutus = () => {
         />
         <meta
           name="keywords"
-          content="، داربست فلزی در کرمان ، درباره ما, شرکت خدمات داربست فلزی, نصب داربست کرمان, اجاره داربست, طراحی داربست فلزی"
+          content=" داربست فلزی در کرمان ، درباره ما, شرکت خدمات داربست فلزی, نصب داربست کرمان, اجاره داربست, طراحی داربست فلزی"
         />
         <link rel="canonical" href="https://kerman-darbast.vercel.app/about-us" />
       </Helmet>
@@ -124,7 +124,7 @@ const Aboutus = () => {
             </p>
           </div>
           <div className="">
-            <img src={img} height={"60vh"} width={"100vw"} alt="aboutUs.webp" />
+            <img src={img} className="w-full h-full" height="300px" width="300px" alt="aboutUs.webp" />
           </div>
         </div>
       </div>
