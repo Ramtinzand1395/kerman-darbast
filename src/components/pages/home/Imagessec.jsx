@@ -1,6 +1,6 @@
 import contact from "../../../assets/contact.webp";
 import aboutus from "../../../assets/aboutUs.webp";
-import baner from "../../../assets/Baner.webp";
+import baner from "../../../assets/baner.webp";
 
 const Imagessec = () => {
   return (
