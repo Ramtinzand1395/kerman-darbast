@@ -13,7 +13,7 @@ const Aboutus = () => {
           name="keywords"
           content=" داربست فلزی در کرمان ، درباره ما, شرکت خدمات داربست فلزی, نصب داربست کرمان, اجاره داربست, طراحی داربست فلزی"
         />
-        <link rel="canonical" href="https://kerman-darbast.vercel.app/about-us" />
+        <link rel="canonical" href="https://kermandarbast.ir/about-us" />
       </Helmet>
       <div className="md:container md:mx-auto mx-2">
         <div className="flex flex-col justify-center items-center ">

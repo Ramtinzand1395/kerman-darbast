@@ -3,9 +3,9 @@ import React from "react";
 const Firstdiv = () => {
   return (
     <div className="md:container md:mx-auto mx-2 w-full ">
-      <h5 className="my-5 text-2xl md:text-4xl text-primary">
+      <h2 className="my-5 text-2xl md:text-4xl text-primary">
         به وب‌سایت شرکت ما خوش آمدید
-      </h5>
+      </h2>
       <p className="my-5">
         شرکت تبری از سال 1385 <strong>با مدیریت فرشید ضیا تبری</strong> فعالیت
         خود را در زمینه خدمات داربست فلزی در استان کرمان آغاز کرده و اکنون با

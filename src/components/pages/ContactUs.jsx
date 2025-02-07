@@ -22,7 +22,7 @@ const ContactUs = () => {
         />
         <link
           rel="canonical"
-          href="https://kerman-darbast.vercel.app/contact-us"
+          href="https://kermandarbast.ir/contact-us"
         />
       </Helmet>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5  md:container md:mx-auto mx-2">

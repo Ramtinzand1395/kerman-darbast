@@ -11,7 +11,7 @@ const Blog2 = () => {
     "@type": "Article",
     headline: "اجزای اصلی داربست فلزی: راهنمای جامع برای آشنایی با قطعات داربست فلزی",
     image: [
-      "https://kerman-darbast.vercel.app/assets/IMG-20241217-WA0014.webp",
+      "https://kermandarbast.ir/assets/IMG-20241217-WA0014.webp",
     ],
     author: {
       "@type": "Person",
@@ -23,7 +23,7 @@ const Blog2 = () => {
       name: "کرمان داربست",
       logo: {
         "@type": "ImageObject",
-        url: "https://kerman-darbast.vercel.app/assets/logo.webp",
+        url: "https://kermandarbast.ir/assets/logo.webp",
       },
     },
     datePublished: "2024-12-23",
@@ -60,11 +60,11 @@ const Blog2 = () => {
         />
         <meta
           property="og:image"
-          content="https://kerman-darbast.vercel.app/assets/IMG-20241217-WA0014.webp"
+          content="https://kermandarbast.ir/assets/IMG-20241217-WA0014.webp"
         />
         <meta
           property="og:url"
-          content="https://kerman-darbast.vercel.app/blog2/kerman-scaffolding-components"
+          content="https://kermandarbast.ir/blog2/kerman-scaffolding-components"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -73,7 +73,7 @@ const Blog2 = () => {
         </title>
         <link
           rel="canonical"
-          href="https://kerman-darbast.vercel.app/blog2/kerman-scaffolding-components"
+          href="https://kermandarbast.ir/blog2/kerman-scaffolding-components"
         />
         <script
           type="application/ld+json"

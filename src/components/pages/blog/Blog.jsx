@@ -10,8 +10,8 @@ const Blog = () => {
     headline: "نصب داربست فلزی در کرمان: راهنمای جامع و کاربردی",
     // !ادرس درست شه
     image: [
-      "https://kerman-darbast.vercel.app/assets/IMG-20241217-WA0019.webp",
-      "https://kerman-darbast.vercel.app/assets/IMG-20241217-WA0010.webp",
+      "https://kermandarbast.ir/assets/IMG-20241217-WA0019.webp",
+      "https://kermandarbast.ir/assets/IMG-20241217-WA0010.webp",
     ],
     author: {
       "@type": "Person",
@@ -23,7 +23,7 @@ const Blog = () => {
       name: "کرمان داربست",
       logo: {
         "@type": "ImageObject",
-        url: "https://kerman-darbast.vercel.app/assets/logo.webp",
+        url: "https://kermandarbast.ir/assets/logo.webp",
       },
     },
     datePublished: "2024-12-23",
@@ -62,11 +62,11 @@ const Blog = () => {
         */}
         <meta
           property="og:image"
-          content="https://kerman-darbast.vercel.app/assets/IMG-20241217-WA0019.webp"
+          content="https://kermandarbast.ir/assets/IMG-20241217-WA0019.webp"
         />
         <meta
           property="og:url"
-          content="https://kerman-darbast.vercel.app/blog/kerman-scaffolding-installation"
+          content="https://kermandarbast.ir/blog/kerman-scaffolding-installation"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -75,7 +75,7 @@ const Blog = () => {
         <title> راهنمای جامع و کاربردی | داربست فلزی در کرمان</title>
         <link
           rel="canonical"
-          href="https://kerman-darbast.vercel.app/contact-us"
+          href="https://kermandarbast.ir/contact-us"
         />
         <script
           type="application/ld+json"

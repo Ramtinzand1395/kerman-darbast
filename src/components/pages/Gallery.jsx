@@ -24,7 +24,7 @@ const Gallery = () => {
         />
         <link
           rel="canonical"
-          href="https://kerman-darbast.vercel.app/gallery"
+          href="https://kermandarbast.ir/gallery"
         />
       </Helmet>
       <img

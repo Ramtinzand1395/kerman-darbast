@@ -19,7 +19,7 @@ const Home = () => {
           name="keywords"
           content=" داربست فلزی در کرمان ، درباره ما, شرکت خدمات داربست فلزی, نصب داربست کرمان, اجاره داربست, طراحی داربست فلزی"
         />
-        <link rel="canonical" href="https://kerman-darbast.vercel.app" />
+        <link rel="canonical" href="https://kermandarbast.ir" />
       </Helmet>
       <Header />
       <Firstdiv />
