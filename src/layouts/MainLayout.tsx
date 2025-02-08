@@ -18,7 +18,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
       <Navbar />
       {children}
       <div className="fixed bottom-0 left-0 bg-blue-900 rounded-md flex items-center justify-around p-2 md:p-5 w-full text-white border-t-white border-t-2">
-        <h4 className="layout-text absolute right-10 top-0 md:top-4"></h4>
+        <p className="layout-text absolute right-10 top-0 md:top-4"></p>
         <div className="h-[14vh] md:h-auto"></div>
         <button onClick={() => copyToClipboard("09399943527")} type="button">
           اطلاعات تماس 1 :09131968481
