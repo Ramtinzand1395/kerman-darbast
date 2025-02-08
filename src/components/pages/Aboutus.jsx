@@ -124,7 +124,7 @@ const Aboutus = () => {
             </p>
           </div>
           <div className="">
-            <img src={img} className="w-full aspect-[2/5] object-cover" alt="aboutUs.webp" loading="lazy"/>
+            {/* <img src={img} className="w-full aspect-[2/5] object-cover" alt="aboutUs.webp" loading="lazy"/> */}
           </div>
         </div>
       </div>
