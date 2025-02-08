@@ -8,7 +8,7 @@ const Contact = () => {
       };
   return (
     <div className='bg-primary  grid grid-cols-1 md:grid-cols-2 gap-5 md:container md:mx-auto mx-2 p-5 text-white'>
-        <div className="flex flex-col items-start justify-evenly h-[40vh]">
+        <div className="flex flex-col items-start justify-evenly">
             <h4 className="font-bold text-3xl">با ما در تماس باشید</h4>
             <p>
                 جهت در یافت مشاوره رایگان تماس بگیرید.
@@ -21,7 +21,7 @@ const Contact = () => {
             </button>
         </div>
         <div className="self-end">
-            <img height={"60vh"} width={"100vw"} src={contact} className="w-full h-[40vh] rounded-md" alt="contact.jpg" />
+            <img src={contact} className="w-full aspect-[16/9] object-cover" alt="contact.jpg" />
         </div>
     </div>
   )
