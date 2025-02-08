@@ -8,7 +8,7 @@ const Contact = () => {
       };
   return (
     <div className='bg-primary  grid grid-cols-1 md:grid-cols-2 gap-5 md:container md:mx-auto mx-2 p-5 text-white'>
-        <div className="flex flex-col items-start justify-evenly">
+        <div className="flex flex-col items-start justify-evenly space-y-5">
             <h4 className="font-bold text-3xl">با ما در تماس باشید</h4>
             <p>
                 جهت در یافت مشاوره رایگان تماس بگیرید.
