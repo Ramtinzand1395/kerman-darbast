@@ -73,7 +73,7 @@ const Blog = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <title> راهنمای جامع و کاربردی | داربست فلزی در کرمان</title>
-        <link rel="canonical" href="https://kermandarbast.ir/contact-us" />
+        <link rel="canonical" href="https://kermandarbast.ir/blogs/blog/%D9%86%D8%B5%D8%A8%20%D8%AF%D8%A7%D8%B1%D8%A8%D8%B3%D8%AA%20%D9%81%D9%84%D8%B2%DB%8C%20%D8%AF%D8%B1%20%DA%A9%D8%B1%D9%85%D8%A7%D9%86" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdData) }}

@@ -73,7 +73,7 @@ const Blog2 = () => {
         </title>
         <link
           rel="canonical"
-          href="https://kermandarbast.ir/blog2/kerman-scaffolding-components"
+          href="https://kermandarbast.ir/blogs/blog/%D8%A7%D8%AC%D8%B2%D8%A7%DB%8C%20%D8%A7%D8%B5%D9%84%DB%8C%20%D8%AF%D8%A7%D8%B1%D8%A8%D8%B3%D8%AA%20%D9%81%D9%84%D8%B2%DB%8C"
         />
         <script
           type="application/ld+json"
