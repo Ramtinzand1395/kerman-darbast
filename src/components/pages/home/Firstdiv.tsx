@@ -30,14 +30,14 @@ const Firstdiv = () => {
           بیلبوردها و تابلوهای شهری
         </p>
       </div>
-      <h5 className="my-5 font-bold">چرا ما را انتخاب کنید؟</h5>
+      <h3 className="my-5 font-bold">چرا ما را انتخاب کنید؟</h3>
       <p className="my-5">
         تیمی متخصص و مجرب با سال‌ها تجربه در پروژه‌های مختلف. رعایت کامل اصول
         ایمنی برای حفظ امنیت کارگران و تجهیزات. ارائه خدمات سریع و باکیفیت در
         تمام مناطق کرمان و شهرستان‌ها. قیمت‌های رقابتی و مقرون‌به‌صرفه.
       </p>
       <div className="my-5 flex flex-col items-start justify-around h-[30vh]">
-        <h5 className="font-bold">تماس با ما</h5>
+        <h3 className="font-bold">تماس با ما</h3>
         <p>برای دریافت مشاوره یا ثبت سفارش، با ما تماس بگیرید:</p>
         <p className="flex items-center">
           <svg
