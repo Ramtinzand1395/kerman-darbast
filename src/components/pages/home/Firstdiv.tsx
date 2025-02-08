@@ -2,8 +2,8 @@ import React from "react";
 
 const Firstdiv = () => {
   return (
-    <div className="md:container md:mx-auto mx-2 w-full ">
-      <h2 className="my-5 text-2xl md:text-4xl text-primary">
+    <div className="container md:mx-auto mx-2 w-full ">
+      <h2 className="my-5 text-2xl md:text-4xl text-primary min-h-[40px]">
         به وب‌سایت شرکت ما خوش آمدید
       </h2>
       <p className="my-5">
