@@ -28,82 +28,82 @@ const Gallery = () => {
         />
       </Helmet>
       <img
-        height={"400px"}
-        width={"400px"}
+      
+        
         src={contact}
-        className="w-full h-[400px]"
+        className="w-full aspect-[16/9] object-cover"
         alt="لوله‌های فلزی برای داربست در کرمان"
         title="لوله‌های فلزی برای داربست در کرمان"
         loading="lazy"
       />
       <img
-        height={"400px"}
-        width={"400px"}
+      
+        
         src={aboutus}
-        className="w-full h-[400px]"
+        className="w-full aspect-[16/9] object-cover"
         alt="لوله‌های فلزی برای داربست در کرمان"
         title="لوله‌های فلزی برای داربست در کرمان"
         loading="lazy"
       />
       <img
-        height={"400px"}
-        width={"400px"}
+      
+        
         src={baner}
-        className="w-full h-[400px]"
+        className="w-full aspect-[16/9] object-cover"
         alt="لوله‌های فلزی برای داربست در کرمان"
         title="لوله‌های فلزی برای داربست در کرمان"
         loading="lazy"
       />
       <img
-        height={"400px"}
-        width={"400px"}
+      
+        
         src={img1}
-        className="w-full h-[400px]"
+        className="w-full aspect-[16/9] object-cover"
         alt="لوله‌های فلزی برای داربست در کرمان"
         title="لوله‌های فلزی برای داربست در کرمان"
         loading="lazy"
       />{" "}
       <img
-        height={"400px"}
-        width={"400px"}
+      
+        
         src={img2}
-        className="w-full h-[400px]"
+        className="w-full aspect-[16/9] object-cover"
         alt="لوله‌های فلزی برای داربست در کرمان"
         title="لوله‌های فلزی برای داربست در کرمان"
         loading="lazy"
       />{" "}
       <img
-        height={"400px"}
-        width={"400px"}
+      
+        
         src={img3}
-        className="w-full h-[400px]"
+        className="w-full aspect-[16/9] object-cover"
         alt="لوله‌های فلزی برای داربست در کرمان"
         title="لوله‌های فلزی برای داربست در کرمان"
         loading="lazy"
       />{" "}
       <img
-        height={"400px"}
-        width={"400px"}
+      
+        
         src={img4}
-        className="w-full h-[400px]"
+        className="w-full aspect-[16/9] object-cover"
         alt="لوله‌های فلزی برای داربست در کرمان"
         title="لوله‌های فلزی برای داربست در کرمان"
         loading="lazy"
       />{" "}
       <img
-        height={"400px"}
-        width={"400px"}
+      
+        
         src={img5}
-        className="w-full h-[400px]"
+        className="w-full aspect-[16/9] object-cover"
         alt="لوله‌های فلزی برای داربست در کرمان"
         title="لوله‌های فلزی برای داربست در کرمان"
         loading="lazy"
       />{" "}
       <img
-        height={"400px"}
-        width={"400px"}
+      
+        
         src={img6}
-        className="w-full h-[400px]"
+        className="w-full aspect-[16/9] object-cover"
         alt="لوله‌های فلزی برای داربست در کرمان"
         title="لوله‌های فلزی برای داربست در کرمان"
         loading="lazy"

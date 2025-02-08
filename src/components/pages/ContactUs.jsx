@@ -47,10 +47,9 @@ const ContactUs = () => {
         </div>
         <div className="">
           <img
-            height={"400px"}
-            width={"400px"}
+           
             src={img1}
-            className="w-full h-[400px]"
+            className="w-full aspect-[16/9] object-cover"
             alt="لوله‌های فلزی برای داربست در کرمان"
             title="لوله‌های فلزی برای داربست در کرمان"
             loading="lazy"
