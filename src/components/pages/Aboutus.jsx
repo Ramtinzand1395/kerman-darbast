@@ -21,8 +21,8 @@ const Aboutus = () => {
             ایمنی، سرعت، کیفیت؛ سه اصل طلایی ضیا تبری در خدمات داربست فلزی
           </h1>
         </div>
-        <h3 className="mb-5">درباره ما</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 h-auto md:h-[80vh]">
+        <h2 className="">درباره ما</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 ">
           <div className="flex flex-col justify-around">
             <p>
               شرکت ما با افتخار یکی از پیشگامان حوزه نصب داربست فلزی در کرمان
@@ -31,9 +31,9 @@ const Aboutus = () => {
               صنعتی در منطقه تبدیل کرده است.
             </p>
             <div>
-              <h3 className=" text-base md:text-2xl mb-5">
+              <h2 className=" text-base md:text-2xl mb-5">
                 ما آماده همکاری با مشتریانی از حوزه‌های زیر هستیم:
-              </h3>
+              </h2>
               <p>
                 نما , زیر بتن , دیوار برشی , چاهک آسانسور , حفاظ و چهار پایه ,
                 نور گیر و ... پروژه‌های ساختمانی مانند ساخت و ساز یا بازسازی
@@ -42,9 +42,9 @@ const Aboutus = () => {
               </p>{" "}
             </div>
             <div className="">
-              <h3 className=" text-base md:text-2xl mb-5">
+              <h2 className=" text-base md:text-2xl mb-5">
                 تفاوت ما با رقبا :{" "}
-              </h3>
+              </h2>
               <p>
                 ایمنی بالا: استفاده از تجهیزات استاندارد و رعایت تمامی اصول
                 ایمنی.
@@ -57,7 +57,7 @@ const Aboutus = () => {
             </div>
           </div>
           <div className="flex flex-col justify-around">
-            <h3>چرا شرکت ما؟</h3>
+            <h2 className="mb-5">چرا شرکت ما؟</h2>
             <p>
               شرکت ما با بیش از 10 سال تجربه در نصب داربست فلزی در کرمان و اجرای
               پروژه‌های بزرگ در سراسر استان و شهرستان‌ها، به انتخاب اول مشتریانی
@@ -94,28 +94,28 @@ const Aboutus = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 text-white my-10">
           <div className="bg-primary  p-20">
-            <h3 className="text-xl">چرا ما</h3>
-            <h2 className="text-lg my-5">تجربه و تخصص</h2>
+            <h2 className="text-xl">چرا ما</h2>
+            <h3 className="text-lg my-5">تجربه و تخصص</h3>
             <p>
               شرکت ضیا تبری با بیش از 10 سال سابقه فعالیت در حوزه داربست فلزی،
               تجربه‌ای گران‌بها در اجرای پروژه‌های متنوع ساختمانی، صنعتی و
               تبلیغاتی به دست آورده است. تیم متخصص ما با دانش فنی بالا، خدماتی
               با کیفیت و مطابق با استانداردهای روز ارائه می‌دهد.
             </p>
-            <h2 className="text-lg my-5">ارائه خدمات سفارشی</h2>
+            <h3 className="text-lg my-5">ارائه خدمات سفارشی</h3>
             <p>
               ما می‌دانیم که هر پروژه نیازهای خاص خود را دارد. به همین دلیل،
               خدمات داربست فلزی را به‌صورت کاملاً سفارشی و متناسب با نیازهای
               مشتری ارائه می‌دهیم.
             </p>
 
-            <h2 className="text-lg my-5">قیمت مناسب و شفافیت</h2>
+            <h3 className="text-lg my-5">قیمت مناسب و شفافیت</h3>
             <p>
               ما به ارائه قیمت‌های رقابتی و منصفانه افتخار می‌کنیم. تمامی
               هزینه‌ها قبل از شروع پروژه به‌صورت شفاف به مشتریان اعلام می‌شود تا
               از بروز هرگونه ابهام جلوگیری شود.
             </p>
-            <h2 className="text-lg my-5">ایمنی بالا</h2>
+            <h3 className="text-lg my-5">ایمنی بالا</h3>
             <p>
               ایمنی یکی از اصول کلیدی در خدمات ماست. از تجهیزات استاندارد و با
               کیفیت استفاده می‌کنیم و تمامی مراحل نصب و اجرا با رعایت دقیق‌ترین
@@ -124,7 +124,7 @@ const Aboutus = () => {
             </p>
           </div>
           <div className="">
-            <img src={img} className="w-full h-full" height="300px" width="300px" alt="aboutUs.webp" loading="lazy"/>
+            <img src={img} className="w-full aspect-[2/5] object-cover" alt="aboutUs.webp" loading="lazy"/>
           </div>
         </div>
       </div>

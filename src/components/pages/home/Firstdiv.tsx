@@ -3,7 +3,7 @@ import React from "react";
 const Firstdiv = () => {
   return (
     <div className="container md:mx-auto mx-2 w-full">
-      <h2 className="my-5 text-2xl md:text-4xl text-primary min-h-[40px]">
+      <h2 className="my-5 text-2xl md:text-4xl text-primary min-h-[48px]">
         به وب‌سایت شرکت ما خوش آمدید
       </h2>
       <p className="my-5">
