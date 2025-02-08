@@ -2,8 +2,8 @@ import React from "react";
 
 const Firstdiv = () => {
   return (
-    <div className="container md:mx-auto mx-2 w-full  min-h-[60vh]">
-      <h2 className="my-5 text-2xl md:text-4xl text-primary ">
+    <div className="container md:mx-auto mx-2 w-full">
+      <h2 className="my-5 text-2xl md:text-4xl text-primary min-h-[40px]">
         به وب‌سایت شرکت ما خوش آمدید
       </h2>
       <p className="my-5">
@@ -36,7 +36,7 @@ const Firstdiv = () => {
         ایمنی برای حفظ امنیت کارگران و تجهیزات. ارائه خدمات سریع و باکیفیت در
         تمام مناطق کرمان و شهرستان‌ها. قیمت‌های رقابتی و مقرون‌به‌صرفه.
       </p>
-      <div className="my-5 flex flex-col items-start justify-around h-[30vh] space-y-5">
+      <div className="my-5 flex flex-col items-start justify-around h-[30vh] space-y-5 min-h-[300px]">
         <h3 className="font-bold">تماس با ما</h3>
         <p>برای دریافت مشاوره یا ثبت سفارش، با ما تماس بگیرید:</p>
         <p className="flex items-center">
