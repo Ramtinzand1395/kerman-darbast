@@ -55,7 +55,7 @@ const App = () => {
           }
         />
         <Route
-          path={`/blogs/blog/نصب داربست فلزی در کرمان: راهنمای جامع و کاربردی`}
+          path={`/blogs/blog/نصب داربست فلزی در کرمان`}
           element={
             <MainLayout>
               <Blog />
@@ -63,7 +63,7 @@ const App = () => {
           }
         />
          <Route
-          path={`/blogs/blog/اجزای اصلی داربست فلزی: راهنمای جامع برای آشنایی با قطعات داربست فلزی`}
+          path={`/blogs/blog/اجزای اصلی داربست فلزی`}
           element={
             <MainLayout>
               <Blog2 />

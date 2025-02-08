@@ -73,10 +73,7 @@ const Blog = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <title> راهنمای جامع و کاربردی | داربست فلزی در کرمان</title>
-        <link
-          rel="canonical"
-          href="https://kermandarbast.ir/contact-us"
-        />
+        <link rel="canonical" href="https://kermandarbast.ir/contact-us" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdData) }}
@@ -129,10 +126,12 @@ const Blog = () => {
 
         <section className="my-10">
           <h3 className="text-lg font-bold my-4">
-            <Link className="text-blue-500 underline" to={`/blogs/blog/اجزای اصلی داربست فلزی: راهنمای جامع برای آشنایی با قطعات داربست فلزی`}>
-            اجزای اصلی داربست فلزی:
+            <Link
+              className="text-blue-500 underline"
+              to={`/blogs/اجزای اصلی داربست فلزی `}
+            >
+              اجزای اصلی داربست فلزی:
             </Link>
-
           </h3>
           <ul className="list-disc ml-5  flex flex-col gap-5">
             <li>
