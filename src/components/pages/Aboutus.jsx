@@ -123,8 +123,12 @@ const Aboutus = () => {
               شود.
             </p>
           </div>
-          <div className="">
-            <img src={img} className="w-full aspect-[2/5] object-cover" alt="aboutUs.webp" />
+          <div className="min-h-[300px]">
+            <img
+              src={img}
+              className="w-full aspect-[4/9] object-cover"
+              alt="aboutUs.webp"
+            />
           </div>
         </div>
       </div>
